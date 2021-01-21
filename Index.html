@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Untitled Document</title>
+	  <link href="js-image-slider.css" rel="stylesheet" type="text/css" />
+<script src="js-image-slider.js" type="text/javascript"></script>
+    <!-- Bootstrap -->
+	<link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+	  
+	  <style type="text/css">
+	#contenedor{
+		position:relative;
+		width: 1020px;
+		height: 4024px;
+
+		margin: auto;
+		  }
+		  #inicioimg{
+	position: absolute;
+    width: 1019px;
+    height: 616px;
+    left: 1px;
+    top: 0px;
+}
+		  #GEARS1{
+	position: absolute;
+    width: 1019px;
+    height: 472px;
+    left: 1px;
+    top: 864px;
+}
+#GEARS2{
+	position: absolute;
+    width: 1019px;
+    height: 495px;
+    left: 1px;
+    top: 1336px;
+}
+#GEARS3{
+	position: absolute;
+    width: 1020px;
+    height: 472px;
+    left: 0px;
+    top: 1831px;
+}
+#GEARS4{
+	position: absolute;
+    width: 1019px;
+    height: 472px;
+    left: 1px;
+    top: 2315px;
+}
+#GEARS2{
+	position: absolute;
+    width: 1019px;
+    height: 495px;
+    left: 1px;
+    top: 1336px;
+}
+#GEARS5{
+	position: absolute;
+    width: 1020px;
+    height: 472px;
+    left: 0px;
+    top: 2799px;
+}
+#GEARS6{
+	position: absolute;
+    width: 1019px;
+    height: 469px;
+    left: 1px;
+    top: 3284px;
+}
+		  #LOGO{
+	position: absolute;
+    width: 500px;
+    height: 173px;
+    left: 260px;
+    top: 223px;
+}
+#boton1{
+	position: absolute;
+    width: 262px;
+    height: 86px;
+    left: 99px;
+    top: 1210px;
+}
+#boton2{
+	position: absolute;
+    width: 262px;
+    height: 84px;
+    left: 659px;
+    top: 1692px;
+}
+#boton32{
+	position: absolute;
+    width: 262px;
+    height: 85px;
+    left: 99px;
+    top: 2179px;
+}
+#boton4{
+	position: absolute;
+    width: 264px;
+    height: 84px;
+    left: 657px;
+    top: 2671px;
+}
+#boton5{
+	position: absolute;
+    width: 262px;
+    height: 82px;
+    left: 99px;
+    top: 3149px;
+}
+#boton6{
+	position: absolute;
+    width: 262px;
+    height: 83px;
+    left: 659px;
+    top: 3631px;
+}
+		  #degradado{
+	position: absolute;
+    width: 1200px;
+    height: 648px;
+    left: 0px;
+    top: 290px;
+}
+		  #Texto-Intro{
+    position: absolute;
+    width: 711px;
+    height: 62px;
+    left: 144px;
+    top: 678px;
+    text-align: center;
+    color: rgba(255,255,255,1);
+	}
+		  #microsoft{
+    position: absolute;
+    width: 251px;
+    height: 46px;
+    left: 408px;
+    top: 3855px;
+}
+#facebook{
+    position: absolute;
+    width: 58px;
+    height: 46px;
+    left: 120px;
+    top: 3855px;
+}
+#whats{
+    position: absolute;
+    width: 48px;
+    height: 46px;
+    left: 806px;
+    top: 3855px;
+}
+		#contact{
+    position: absolute;
+    width: 1020px;
+    height: 170px;
+    left: 0px;
+    top: 3768px;
+		}
+		#texto{
+    position: absolute;
+    width: 299px;
+    height: 30px;
+    left: 360px;
+    top: 3804px;
+}
+
+body {
+	background-image: url("images/inicio-background.jpg");
+	background-repeat: repeat;
+    background-color: rgba(181,25,24,1);
+}
+		  
+		   </style>
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+  </script>
+		  
+	
+  </head>
+	<!-- Bootstrap -->
+  <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+<section class="container-fluid d-flex justify-content-center aling-s-cente">
+	  <h1 class="display-4"></h1>
+</section>
+	 
+<nav class="navbar navbar-dark bg-dark">
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+	<a class="navbar-brand" href="#">
+  </a>
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+	  <div class="navbar-nav">
+      <a class="nav-item nav-link active" href="index.html">INICIO <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link active" href="Gears1.html">GEARS OF WAR 1</a>
+      <a class="nav-item nav-link active" href="Gears2.html">GEARS OF WAR 2</a>
+      <a class="nav-item nav-link active" href="Gears3.html">GEARS OF WAR 3</a>
+		  <a class="nav-item nav-link active" href="Gears4.html">GEARS OF WAR 4</a>
+      <a class="nav-item nav-link active" href="Gears5.html">GEARS 5</a>
+      <a class="nav-item nav-link active" href="Gears-Tactics.html">GEARS TACTICS</a>
+    </div>
+  </div>
+</nav>
+<body>
+  <div id="contenedor">
+  <div id="inicioimg">
+    <div id="slider">
+        <img src="images/INICIO-IMAGEN-1.png" />
+        <img src="images/INICIO-IMAGEN-2.png" />
+        <img src="images/INICIO-IMAGEN-3.png" />     
+    </div>
+	  <div id="degradado"><img src="images/GEARS1-DEGRADADO.png" width="1020" height="648" alt=""/></div>
+	    
+    <div id="GEARS1"><img src="images/INICIO-Gears1.png" width="1019" height="472" alt=""/></div>
+	  
+<div id="GEARS2"><img src="images/INICIO-Gears2.png" width="1019" height="495" alt=""/></div>
+<div id="GEARS3"><img src="images/INICIO-IMAGENES_06.png" width="1020" height="472" alt=""/></div>
+<div id="GEARS4"><img src="images/INICIO-Gears4.png" width="1019" height="472" alt=""/></div>
+<div id="GEARS5"><img src="images/INICIO-Gears5.png" width="1020" height="472" alt=""/></div>
+<div id="GEARS6"><img src="images/INICIO-GearsT.png" width="1019" height="469" alt=""/></div>
+	  <div id="LOGO"><img src="images/INICIO-LOGO.png" width="500" height="173" alt=""/></div>
+<div id="boton1"><a href="Gears1.html"><img src="images/INICIO-BOTON-1.png" width="262" height="86" alt=""/></a></div>
+<div id="boton2"><a href="Gears2.html"><img src="images/INICIO-BOTON-2.png" width="262" height="84" alt=""/></a></div>
+<div id="boton32"><a href="Gears3.html"><img src="images/INICIO-BOTON-3.png" width="262" height="85" alt=""/></a></div>
+<div id="boton4"><a href="Gears4.html"><img src="images/INICIO-BOTON-4.png" width="264" height="84" alt=""/></a></div>
+<div id="boton5"><a href="Gears5.html"><img src="images/INICIO-BOTON-5.png" width="262" height="82" alt=""/></a></div>
+<div id="boton6"><a href="Gears-Tactics.html"><img src="images/INICIO-BOTON-6.png" width="262" height="83" alt=""/></a></div>
+	  <div id="Texto-Intro" style="font-weight: 100; font-size: 20px;"> <span style="font-family: 'Arial Black'; font-size: 24px; font-style: normal;">Descubre una de las franquicias más exitosas de Xbox y aventúrate en la lucha contra los Locust.</span></div>
+	  <div id="contact"><img src="images/GEARS1-contacts.png" width="1020" height="170" alt=""/></div>
+    <div id="facebook"><a href="https://www.facebook.com/xbox/" target="_blank"><img src="images/facebook.png" width="58" height="46" alt=""/></a></div>
+<div id="whats"><a href="https://www.instagram.com/xboxmexico/" target="_blank"><img src="images/instagram.png" width="48" height="46" alt=""/></a></div>
+<div id="texto"><img src="images/BOTON-diseñado.png" width="299" height="30" alt=""/></div>
+    <div id="microsoft"><img src="images/microsoft.png" width="251" height="46" alt=""/></div>
+
+
+	  
+</div>
+
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="js/jquery-3.4.1.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/popper.min.js"></script><script src="js/bootstrap-4.4.1.js"></script>
+</body>
+</html>
